@@ -72,6 +72,18 @@ import UIKit
             updateColor()
         }
     }
+    
+
+    @IBInspectable var rounded: Bool = false {
+        didSet {
+            if rounded {
+                layer.cornerRadius =  bounds.size.width / 2
+            }else{
+                layer.cornerRadius = 0
+            }
+            clipsToBounds = true
+        }
+    }
 
     // MARK: - Initializers
 

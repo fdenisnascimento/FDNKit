@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CBE87E61DBEA0DE0096BBA9 /* FDNBaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE87E51DBEA0DE0096BBA9 /* FDNBaseImageView.swift */; };
 		5CD6ECBF1DBE33D900FBDD1A /* FDNKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD6ECB51DBE33D900FBDD1A /* FDNKit.framework */; };
 		5CD6ECC41DBE33D900FBDD1A /* FDNKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6ECC31DBE33D900FBDD1A /* FDNKitTests.swift */; };
 		5CD6ECC61DBE33D900FBDD1A /* FDNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD6ECB81DBE33D900FBDD1A /* FDNKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CBE87E51DBEA0DE0096BBA9 /* FDNBaseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDNBaseImageView.swift; sourceTree = "<group>"; };
 		5CD6ECB51DBE33D900FBDD1A /* FDNKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDNKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD6ECB81DBE33D900FBDD1A /* FDNKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDNKit.h; sourceTree = "<group>"; };
 		5CD6ECB91DBE33D900FBDD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CBE87E41DBEA0BE0096BBA9 /* UIImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE87E51DBEA0DE0096BBA9 /* FDNBaseImageView.swift */,
+			);
+			path = UIImageViews;
+			sourceTree = "<group>";
+		};
 		5CD6ECAB1DBE33D900FBDD1A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		5CD6ECB71DBE33D900FBDD1A /* FDNKit */ = {
 			isa = PBXGroup;
 			children = (
+				5CBE87E41DBEA0BE0096BBA9 /* UIImageViews */,
 				5CD6ECF81DBE374600FBDD1A /* UIButtons */,
 				5CD6ECFC1DBE374600FBDD1A /* UILabels */,
 				5CD6ECFE1DBE374600FBDD1A /* UITextFields */,
@@ -288,6 +299,7 @@
 				5CD6ED1D1DBE374600FBDD1A /* FDNBorderedView.swift in Sources */,
 				5CD6ED0F1DBE374600FBDD1A /* FDNBaseButton.swift in Sources */,
 				5CD6ED1B1DBE374600FBDD1A /* FDNPlaceholderTextView.swift in Sources */,
+				5CBE87E61DBEA0DE0096BBA9 /* FDNBaseImageView.swift in Sources */,
 				5CD6ED1F1DBE374600FBDD1A /* FDNDashedBorderedView.swift in Sources */,
 				5CD6ED201DBE374600FBDD1A /* FDNHairlineView.swift in Sources */,
 				5CD6ED131DBE374600FBDD1A /* FDNBaseTextField.swift in Sources */,
